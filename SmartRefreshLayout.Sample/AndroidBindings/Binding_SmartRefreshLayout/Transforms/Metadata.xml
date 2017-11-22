@@ -1,0 +1,95 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+
+  <attr path="/api/package[@name='com.scwang.smartrefresh.layout']/class[@name='SmartRefreshLayout']/method[@name='finishLoadmore']"
+        name="managedReturn">Com.Scwang.Smartrefresh.Layout.Api.IRefreshLayout</attr>
+
+  <attr path="/api/package[@name='com.scwang.smartrefresh.layout']/class[@name='SmartRefreshLayout']/method[@name='finishRefresh']"
+        name="managedReturn">Com.Scwang.Smartrefresh.Layout.Api.IRefreshLayout</attr>
+
+  <attr path="/api/package[@name='com.scwang.smartrefresh.layout']/class[@name='SmartRefreshLayout']/method[@name='getLayout' and count(parameter)=0]"
+        name="managedReturn">Android.Views.ViewGroup</attr>
+
+
+  <attr path="/api/package[@name='com.scwang.smartrefresh.layout']/class[@name='SmartRefreshLayout']/method[@name='setDisableContentWhenLoading' and count(parameter)=1 and parameter[1][@type='boolean']]"
+        name="managedReturn">Com.Scwang.Smartrefresh.Layout.Api.IRefreshLayout</attr>
+
+
+  <attr path="/api/package[@name='com.scwang.smartrefresh.layout']/class[@name='SmartRefreshLayout']/method[@name='setDisableContentWhenLoading' and count(parameter)=1 and parameter[1][@type='boolean']]"
+        name="managedReturn">Com.Scwang.Smartrefresh.Layout.Api.IRefreshLayout</attr>
+  <attr path="/api/package[@name='com.scwang.smartrefresh.layout']/class[@name='SmartRefreshLayout']/method[@name='setDisableContentWhenRefresh' and count(parameter)=1 and parameter[1][@type='boolean']]"
+        name="managedReturn">Com.Scwang.Smartrefresh.Layout.Api.IRefreshLayout</attr>
+  <attr path="/api/package[@name='com.scwang.smartrefresh.layout']/class[@name='SmartRefreshLayout']/method[@name='setDragRate' and count(parameter)=1 and parameter[1][@type='float']]"
+        name="managedReturn">Com.Scwang.Smartrefresh.Layout.Api.IRefreshLayout</attr>
+  <attr path="/api/package[@name='com.scwang.smartrefresh.layout']/class[@name='SmartRefreshLayout']/method[@name='setEnableAutoLoadmore' and count(parameter)=1 and parameter[1][@type='boolean']]"
+        name="managedReturn">Com.Scwang.Smartrefresh.Layout.Api.IRefreshLayout</attr>
+
+  <attr path="/api/package[@name='com.scwang.smartrefresh.layout']/class[@name='SmartRefreshLayout']/method[@name='setEnableFooterTranslationContent' and count(parameter)=1 and parameter[1][@type='boolean']]"
+        name="managedReturn">Com.Scwang.Smartrefresh.Layout.Api.IRefreshLayout</attr>
+  <attr path="/api/package[@name='com.scwang.smartrefresh.layout']/class[@name='SmartRefreshLayout']/method[@name='setEnableHeaderTranslationContent' and count(parameter)=1 and parameter[1][@type='boolean']]"
+        name="managedReturn">Com.Scwang.Smartrefresh.Layout.Api.IRefreshLayout</attr>
+
+  <attr path="/api/package[@name='com.scwang.smartrefresh.layout']/class[@name='SmartRefreshLayout']/method[@name='setEnableLoadmore' and count(parameter)=1 and parameter[1][@type='boolean']]"
+        name="managedReturn">Com.Scwang.Smartrefresh.Layout.Api.IRefreshLayout</attr>
+  <attr path="/api/package[@name='com.scwang.smartrefresh.layout']/class[@name='SmartRefreshLayout']/method[@name='setEnableLoadmoreWhenContentNotFull' and count(parameter)=1 and parameter[1][@type='boolean']]"
+        name="managedReturn">Com.Scwang.Smartrefresh.Layout.Api.IRefreshLayout</attr>
+  <attr path="/api/package[@name='com.scwang.smartrefresh.layout']/class[@name='SmartRefreshLayout']/method[@name='setEnableOverScrollBounce' and count(parameter)=1 and parameter[1][@type='boolean']]"
+        name="managedReturn">Com.Scwang.Smartrefresh.Layout.Api.IRefreshLayout</attr>
+  <attr path="/api/package[@name='com.scwang.smartrefresh.layout']/class[@name='SmartRefreshLayout']/method[@name='setEnablePureScrollMode' and count(parameter)=1 and parameter[1][@type='boolean']]"
+        name="managedReturn">Com.Scwang.Smartrefresh.Layout.Api.IRefreshLayout</attr>
+  <attr path="/api/package[@name='com.scwang.smartrefresh.layout']/class[@name='SmartRefreshLayout']/method[@name='setEnableRefresh' and count(parameter)=1 and parameter[1][@type='boolean']]"
+        name="managedReturn">Com.Scwang.Smartrefresh.Layout.Api.IRefreshLayout</attr>
+  <attr path="/api/package[@name='com.scwang.smartrefresh.layout']/class[@name='SmartRefreshLayout']/method[@name='setEnableScrollContentWhenLoaded' and count(parameter)=1 and parameter[1][@type='boolean']]"
+        name="managedReturn">Com.Scwang.Smartrefresh.Layout.Api.IRefreshLayout</attr>
+  <attr path="/api/package[@name='com.scwang.smartrefresh.layout']/class[@name='SmartRefreshLayout']/method[@name='setFooterHeight' and count(parameter)=1 and parameter[1][@type='float']]"
+        name="managedReturn">Com.Scwang.Smartrefresh.Layout.Api.IRefreshLayout</attr>
+  <attr path="/api/package[@name='com.scwang.smartrefresh.layout']/class[@name='SmartRefreshLayout']/method[@name='setFooterHeightPx' and count(parameter)=1 and parameter[1][@type='int']]"
+        name="managedReturn">Com.Scwang.Smartrefresh.Layout.Api.IRefreshLayout</attr>
+  <attr path="/api/package[@name='com.scwang.smartrefresh.layout']/class[@name='SmartRefreshLayout']/method[@name='setFooterMaxDragRate' and count(parameter)=1 and parameter[1][@type='float']]"
+        name="managedReturn">Com.Scwang.Smartrefresh.Layout.Api.IRefreshLayout</attr>
+  <attr path="/api/package[@name='com.scwang.smartrefresh.layout']/class[@name='SmartRefreshLayout']/method[@name='setHeaderHeight' and count(parameter)=1 and parameter[1][@type='float']]"
+        name="managedReturn">Com.Scwang.Smartrefresh.Layout.Api.IRefreshLayout</attr>
+  <attr path="/api/package[@name='com.scwang.smartrefresh.layout']/class[@name='SmartRefreshLayout']/method[@name='setHeaderHeightPx' and count(parameter)=1 and parameter[1][@type='int']]"
+        name="managedReturn">Com.Scwang.Smartrefresh.Layout.Api.IRefreshLayout</attr>
+
+
+  <attr path="/api/package[@name='com.scwang.smartrefresh.layout']/class[@name='SmartRefreshLayout']/method[@name='setHeaderMaxDragRate' and count(parameter)=1 and parameter[1][@type='float']]"
+        name="managedReturn">Com.Scwang.Smartrefresh.Layout.Api.IRefreshLayout</attr>
+  <attr path="/api/package[@name='com.scwang.smartrefresh.layout']/class[@name='SmartRefreshLayout']/method[@name='setLoadmoreFinished' and count(parameter)=1 and parameter[1][@type='boolean']]"
+        name="managedReturn">Com.Scwang.Smartrefresh.Layout.Api.IRefreshLayout</attr>
+  <attr path="/api/package[@name='com.scwang.smartrefresh.layout']/class[@name='SmartRefreshLayout']/method[@name='setOnLoadmoreListener' and count(parameter)=1 and parameter[1][@type='com.scwang.smartrefresh.layout.listener.OnLoadmoreListener']]"
+        name="managedReturn">Com.Scwang.Smartrefresh.Layout.Api.IRefreshLayout</attr>
+  <attr path="/api/package[@name='com.scwang.smartrefresh.layout']/class[@name='SmartRefreshLayout']/method[@name='setOnMultiPurposeListener' and count(parameter)=1 and parameter[1][@type='com.scwang.smartrefresh.layout.listener.OnMultiPurposeListener']]"
+        name="managedReturn">Com.Scwang.Smartrefresh.Layout.Api.IRefreshLayout</attr>
+  <attr path="/api/package[@name='com.scwang.smartrefresh.layout']/class[@name='SmartRefreshLayout']/method[@name='setOnRefreshListener' and count(parameter)=1 and parameter[1][@type='com.scwang.smartrefresh.layout.listener.OnRefreshListener']]"
+        name="managedReturn">Com.Scwang.Smartrefresh.Layout.Api.IRefreshLayout</attr>
+
+
+  <attr path="/api/package[@name='com.scwang.smartrefresh.layout']/class[@name='SmartRefreshLayout']/method[@name='setOnRefreshLoadmoreListener' and count(parameter)=1 and parameter[1][@type='com.scwang.smartrefresh.layout.listener.OnRefreshLoadmoreListener']]"
+        name="managedReturn">Com.Scwang.Smartrefresh.Layout.Api.IRefreshLayout</attr>
+  <attr path="/api/package[@name='com.scwang.smartrefresh.layout']/class[@name='SmartRefreshLayout']/method[@name='setPrimaryColors' and count(parameter)=1 and parameter[1][@type='int...']]"
+        name="managedReturn">Com.Scwang.Smartrefresh.Layout.Api.IRefreshLayout</attr>
+  <attr path="/api/package[@name='com.scwang.smartrefresh.layout']/class[@name='SmartRefreshLayout']/method[@name='setPrimaryColorsId' and count(parameter)=1 and parameter[1][@type='int...']]"
+        name="managedReturn">Com.Scwang.Smartrefresh.Layout.Api.IRefreshLayout</attr>
+  <attr path="/api/package[@name='com.scwang.smartrefresh.layout']/class[@name='SmartRefreshLayout']/method[@name='setReboundDuration' and count(parameter)=1 and parameter[1][@type='int']]"
+        name="managedReturn">Com.Scwang.Smartrefresh.Layout.Api.IRefreshLayout</attr>
+  <attr path="/api/package[@name='com.scwang.smartrefresh.layout']/class[@name='SmartRefreshLayout']/method[@name='setReboundInterpolator' and count(parameter)=1 and parameter[1][@type='android.view.animation.Interpolator']]"
+        name="managedReturn">Com.Scwang.Smartrefresh.Layout.Api.IRefreshLayout</attr>
+
+  <attr path="/api/package[@name='com.scwang.smartrefresh.layout']/class[@name='SmartRefreshLayout']/method[@name='setRefreshFooter' and count(parameter)=1 and parameter[1][@type='com.scwang.smartrefresh.layout.api.RefreshFooter']]"
+        name="managedReturn">Com.Scwang.Smartrefresh.Layout.Api.IRefreshLayout</attr>
+  <attr path="/api/package[@name='com.scwang.smartrefresh.layout']/class[@name='SmartRefreshLayout']/method[@name='setRefreshFooter' and count(parameter)=3 and parameter[1][@type='com.scwang.smartrefresh.layout.api.RefreshFooter'] and parameter[2][@type='int'] and parameter[3][@type='int']]"
+        name="managedReturn">Com.Scwang.Smartrefresh.Layout.Api.IRefreshLayout</attr>
+  <attr path="/api/package[@name='com.scwang.smartrefresh.layout']/class[@name='SmartRefreshLayout']/method[@name='setRefreshHeader' and count(parameter)=1 and parameter[1][@type='com.scwang.smartrefresh.layout.api.RefreshHeader']]"
+        name="managedReturn">Com.Scwang.Smartrefresh.Layout.Api.IRefreshLayout</attr>
+
+  <attr path="/api/package[@name='com.scwang.smartrefresh.layout']/class[@name='SmartRefreshLayout']/method[@name='setRefreshHeader' and count(parameter)=3 and parameter[1][@type='com.scwang.smartrefresh.layout.api.RefreshHeader'] and parameter[2][@type='int'] and parameter[3][@type='int']]"
+        name="managedReturn">Com.Scwang.Smartrefresh.Layout.Api.IRefreshLayout</attr>
+
+</metadata>

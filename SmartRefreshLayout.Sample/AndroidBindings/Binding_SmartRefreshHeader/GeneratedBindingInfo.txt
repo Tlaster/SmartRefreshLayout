@@ -1,0 +1,6 @@
+Binding for:
+com.scwang.smartrefresh:SmartRefreshHeader:1.0.3
+
+Dependencies:
+
+SmartRefreshHeader-1.0.3.aar,    Path=C:\Users\SE\.gradle\caches\modules-2\files-2.1\com.scwang.smartrefresh\SmartRefreshHeader\1.0.3\592a7c00ea399fe91e88a67f75d98adc19b2ace4\SmartRefreshHeader-1.0.3.aar
